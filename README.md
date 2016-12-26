@@ -3,6 +3,8 @@ This is a library which generates a smooth motion profile while considering a ma
 
 Matlab and cpp (tested in Arduino) libraries are available. Conversion to other platforms should be straight-forward.
 
+Note: The reason why I wrote my own library is because the existing ones are NOT analytical-based solution. Therefore, they depend on the sampling rate used, which leads to oscillations and even instability. The library presented here, works no matter the sampling rate.
+
 # Features
 * On the fly profile generation
 * Analytical-based solution
