@@ -11,7 +11,7 @@ This is a library which generates a smooth motion profile while considering a ma
 /**
  * Generates the analytical solution for the trapezoidal motion.
  *
- * <p>
+ *
  * Usage:
  * // Includes
  * #include "MotionGenerator.h"
