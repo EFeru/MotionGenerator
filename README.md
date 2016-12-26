@@ -1,6 +1,8 @@
 # MotionGenerator
 This is a library which generates a smooth motion profile while considering a maximum velocity and acceleration. The profile is based on the trapezoidal speed motion.
 
+Matlab and cpp (tested in Arduino) libraries are available. Conversion to other platforms should be straight-forward.
+
 # Features
 * On the fly profile generation
 * Analytical-based solution
@@ -9,16 +11,15 @@ This is a library which generates a smooth motion profile while considering a ma
 
 # Usage
 ```cpp
-/**
- * // Includes
- * #include "MotionGenerator.h"
- *
+// Includes
+#include "MotionGenerator.h"
+/*
  * Initialization
  *
  * @param int aVelMax maximum velocity (units/s)
  * @param int aAccMax maximum acceleration (units/s^2)
  * @param int aInitPos initial position (units)
- *
+ */
 
  // Define the MotionGenerator object
  MotionGenerator *trapezoidalProfile = new MotionGenerator(100, 400, 0);
@@ -38,7 +39,6 @@ This is a library which generates a smooth motion profile while considering a ma
 
  // Reset internal state
  trapezoidalProfile->reset();
-*/
  ``` 
 ## Example plot
 ### Trapezoidal motion generator
