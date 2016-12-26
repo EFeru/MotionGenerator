@@ -8,11 +8,8 @@ This is a library which generates a smooth motion profile while considering a ma
 * Smooth position profile based on the trapezoidal motion
 
 # Usage
+```cpp
 /**
- * Generates the analytical solution for the trapezoidal motion.
- *
- *
- * Usage:
  * // Includes
  * #include "MotionGenerator.h"
  *
@@ -41,7 +38,8 @@ This is a library which generates a smooth motion profile while considering a ma
 
  // Reset internal state
  trapezoidalProfile->reset();
- 
+*/
+ ``` 
 ## Example plot
 ### Trapezoidal motion generator
 ![Simulation of a trapezoidal motion profile](https://github.com/AerDronix/MotionGenerator/blob/master/matlab/simPhoto.png)
