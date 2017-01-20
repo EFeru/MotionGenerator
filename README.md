@@ -24,10 +24,10 @@ Note: The reason why I wrote my own library is because the existing ones are NOT
  */
 
  // Define the MotionGenerator object
- MotionGenerator *trapezoidalProfile = new MotionGenerator(100, 400, 0);
+ MotionGenerator *trapezoidalProfile = new MotionGenerator(200, 500, 0);
 
  // Retrieve calculated position
- float positionRef = 1000;
+ float positionRef = 100;
  float position = trapezoidalProfile->update(positionRef)
 
  // Retrieve current velocity
