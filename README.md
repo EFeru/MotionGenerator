@@ -44,5 +44,5 @@ Note: The reason why I wrote my own library is because the existing ones are NOT
  ``` 
 ## Example plot
 ### Trapezoidal motion generator
-![Simulation of a trapezoidal motion profile](https://github.com/AerDronix/MotionGenerator/blob/master/matlab/simPhoto.png)
+![Simulation of a trapezoidal motion profile](https://github.com/EFeru/MotionGenerator/blob/main/matlab/simPhoto.png)
 Limited velocity at 200 units/s and acceleration at 500 units/s^2.
